@@ -1,0 +1,31 @@
+Loaded genome:
+Key: 4523
+Fitness: 60.00999999999663
+Nodes:
+	0 DefaultNodeGene(key=0, bias=-2.191284556420717, response=1.0, activation=sigmoid, aggregation=sum)
+Connections:
+	DefaultConnectionGene(key=(-4, 0), weight=1.443170365629866, enabled=True)
+	DefaultConnectionGene(key=(-3, 0), weight=0.9699990318674362, enabled=True)
+	DefaultConnectionGene(key=(-2, 0), weight=0.7058679316402076, enabled=True)
+	DefaultConnectionGene(key=(-1, 0), weight=0.7989704972055167, enabled=True)
+
+Initial conditions:
+        x = -0.7957
+    x_dot = -0.7829
+    theta = -0.1044
+theta_dot = -0.2663
+
+Pole balanced for 0.7 of 120.0 seconds
+
+Final conditions:
+        x = -1.6003
+    x_dot = 1.1299
+    theta = 0.7895
+theta_dot = 0.9518
+
+Making movie...
+Moviepy - Building video ctrnn-movie.mp4.
+Moviepy - Writing video ctrnn-movie.mp4
+
+Moviepy - Done !
+Moviepy - video ready ctrnn-movie.mp4

@@ -1,0 +1,37 @@
+Loaded genome:
+Key: 4223
+Fitness: 60.00999999999663
+Nodes:
+	0 DefaultNodeGene(key=0, bias=0.2511009449957402, response=1.0, activation=sigmoid, aggregation=sum)
+	15 DefaultNodeGene(key=15, bias=1.9296682982191917, response=1.0, activation=sigmoid, aggregation=sum)
+	521 DefaultNodeGene(key=521, bias=-1.0484138115181318, response=1.0, activation=sigmoid, aggregation=sum)
+Connections:
+	DefaultConnectionGene(key=(-4, 15), weight=-1.9274989333057593, enabled=True)
+	DefaultConnectionGene(key=(-3, 0), weight=0.44769286104565786, enabled=True)
+	DefaultConnectionGene(key=(-3, 15), weight=-1.072674440325557, enabled=True)
+	DefaultConnectionGene(key=(-2, 15), weight=-0.5698938214514273, enabled=True)
+	DefaultConnectionGene(key=(-1, 15), weight=-1.2535536209358824, enabled=True)
+	DefaultConnectionGene(key=(-1, 521), weight=0.7516989973629052, enabled=True)
+	DefaultConnectionGene(key=(15, 0), weight=-5.291532948964969, enabled=True)
+	DefaultConnectionGene(key=(521, 15), weight=3.481843504087232, enabled=True)
+
+Initial conditions:
+        x = -0.9665
+    x_dot = -0.3753
+    theta = -0.1856
+theta_dot = -0.3182
+
+Pole balanced for 120.0 of 120.0 seconds
+
+Final conditions:
+        x = 0.6215
+    x_dot = -0.0772
+    theta = -0.0056
+theta_dot = 0.1257
+
+Making movie...
+Moviepy - Building video ctrnn-movie.mp4.
+Moviepy - Writing video ctrnn-movie.mp4
+
+Moviepy - Done !
+Moviepy - video ready ctrnn-movie.mp4

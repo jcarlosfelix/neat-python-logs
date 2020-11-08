@@ -1,0 +1,51 @@
+Loaded genome:
+Key: 8383
+Fitness: 60.00999999999663
+Nodes:
+	0 DefaultNodeGene(key=0, bias=-4.819344662169952, response=1.0, activation=sigmoid, aggregation=sum)
+	366 DefaultNodeGene(key=366, bias=1.4010762866827187, response=1.0, activation=sigmoid, aggregation=sum)
+	532 DefaultNodeGene(key=532, bias=0.728632428445552, response=1.0, activation=sigmoid, aggregation=sum)
+	834 DefaultNodeGene(key=834, bias=0.6157802911325135, response=1.0, activation=sigmoid, aggregation=sum)
+	1227 DefaultNodeGene(key=1227, bias=-3.7419419926226163, response=1.0, activation=sigmoid, aggregation=sum)
+	1371 DefaultNodeGene(key=1371, bias=1.659604737409391, response=1.0, activation=sigmoid, aggregation=sum)
+	1415 DefaultNodeGene(key=1415, bias=1.5964196439201228, response=1.0, activation=sigmoid, aggregation=sum)
+	1578 DefaultNodeGene(key=1578, bias=-1.0060796007039647, response=1.0, activation=sigmoid, aggregation=sum)
+	1635 DefaultNodeGene(key=1635, bias=1.111555476100946, response=1.0, activation=sigmoid, aggregation=sum)
+Connections:
+	DefaultConnectionGene(key=(-4, 0), weight=5.16140134047943, enabled=True)
+	DefaultConnectionGene(key=(-3, 0), weight=1.8222953144372909, enabled=True)
+	DefaultConnectionGene(key=(-2, 0), weight=1.7099651669874603, enabled=True)
+	DefaultConnectionGene(key=(-2, 532), weight=-0.5457611374690694, enabled=False)
+	DefaultConnectionGene(key=(-2, 834), weight=-0.36743750061945013, enabled=False)
+	DefaultConnectionGene(key=(-2, 1227), weight=-0.7423841418967712, enabled=True)
+	DefaultConnectionGene(key=(-2, 1371), weight=-1.3665120459446187, enabled=True)
+	DefaultConnectionGene(key=(-2, 1578), weight=-2.3157381891177815, enabled=True)
+	DefaultConnectionGene(key=(-1, 0), weight=0.8068862891754476, enabled=True)
+	DefaultConnectionGene(key=(834, 366), weight=-0.17110416828189468, enabled=False)
+	DefaultConnectionGene(key=(834, 1635), weight=0.24630928452819267, enabled=True)
+	DefaultConnectionGene(key=(1227, 532), weight=0.33667990346738275, enabled=True)
+	DefaultConnectionGene(key=(1371, 1415), weight=1.8887798128188193, enabled=True)
+	DefaultConnectionGene(key=(1415, 834), weight=1.362277043222636, enabled=True)
+	DefaultConnectionGene(key=(1578, 532), weight=0.407934361450417, enabled=True)
+	DefaultConnectionGene(key=(1635, 366), weight=-4.73096374482715, enabled=True)
+
+Initial conditions:
+        x = -0.4780
+    x_dot = -0.9192
+    theta = 0.1466
+theta_dot = 0.7900
+
+Pole balanced for 120.0 of 120.0 seconds
+
+Final conditions:
+        x = 0.0926
+    x_dot = 0.0762
+    theta = -0.0016
+theta_dot = -0.1155
+
+Making movie...
+Moviepy - Building video feedforward-movie.mp4.
+Moviepy - Writing video feedforward-movie.mp4
+
+Moviepy - Done !
+Moviepy - video ready feedforward-movie.mp4

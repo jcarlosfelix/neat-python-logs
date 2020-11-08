@@ -1,0 +1,47 @@
+Loaded genome:
+Key: 4084
+Fitness: 60.00999999999663
+Nodes:
+	0 DefaultNodeGene(key=0, bias=-2.9755047830390104, response=1.0, activation=sigmoid, aggregation=sum)
+	108 DefaultNodeGene(key=108, bias=0.927409246304342, response=1.0, activation=sigmoid, aggregation=sum)
+	332 DefaultNodeGene(key=332, bias=-0.6766533536665872, response=1.0, activation=sigmoid, aggregation=sum)
+	540 DefaultNodeGene(key=540, bias=-0.22053682381615447, response=1.0, activation=sigmoid, aggregation=sum)
+	816 DefaultNodeGene(key=816, bias=-1.1962876659138226, response=1.0, activation=sigmoid, aggregation=sum)
+	905 DefaultNodeGene(key=905, bias=-0.730792833912925, response=1.0, activation=sigmoid, aggregation=sum)
+Connections:
+	DefaultConnectionGene(key=(-4, 0), weight=2.4520190150932746, enabled=True)
+	DefaultConnectionGene(key=(-4, 108), weight=-0.9555647469665021, enabled=False)
+	DefaultConnectionGene(key=(-4, 332), weight=1.6116869001828358, enabled=True)
+	DefaultConnectionGene(key=(-3, 0), weight=3.814466156444465, enabled=True)
+	DefaultConnectionGene(key=(-2, 108), weight=-2.653962085470532, enabled=True)
+	DefaultConnectionGene(key=(-1, 108), weight=-3.650490189180315, enabled=True)
+	DefaultConnectionGene(key=(108, 0), weight=-1.6045414614730855, enabled=True)
+	DefaultConnectionGene(key=(108, 108), weight=0.8557896695249753, enabled=False)
+	DefaultConnectionGene(key=(108, 332), weight=0.3510650648960876, enabled=False)
+	DefaultConnectionGene(key=(108, 816), weight=0.10057141063722075, enabled=True)
+	DefaultConnectionGene(key=(332, 108), weight=-0.35748830633113915, enabled=False)
+	DefaultConnectionGene(key=(332, 905), weight=0.6514469278549609, enabled=True)
+	DefaultConnectionGene(key=(540, 540), weight=0.6625531527862255, enabled=True)
+	DefaultConnectionGene(key=(816, 332), weight=-0.7129128844934982, enabled=True)
+	DefaultConnectionGene(key=(905, 108), weight=0.6453920284997944, enabled=True)
+
+Initial conditions:
+        x = 0.1917
+    x_dot = 0.0328
+    theta = -0.2926
+theta_dot = 0.1425
+
+Pole balanced for 120.0 of 120.0 seconds
+
+Final conditions:
+        x = -0.7017
+    x_dot = 0.6520
+    theta = 0.0481
+theta_dot = -0.3982
+
+Making movie...
+Moviepy - Building video ctrnn-movie.mp4.
+Moviepy - Writing video ctrnn-movie.mp4
+
+Moviepy - Done !
+Moviepy - video ready ctrnn-movie.mp4

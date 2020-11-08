@@ -1,0 +1,38 @@
+Loaded genome:
+Key: 7773
+Fitness: 60.00999999999663
+Nodes:
+	0 DefaultNodeGene(key=0, bias=-3.100783929467242, response=1.0, activation=sigmoid, aggregation=sum)
+	1418 DefaultNodeGene(key=1418, bias=0.2042738979634665, response=1.0, activation=sigmoid, aggregation=sum)
+	1514 DefaultNodeGene(key=1514, bias=-0.5392204147485323, response=1.0, activation=sigmoid, aggregation=sum)
+Connections:
+	DefaultConnectionGene(key=(-4, 0), weight=1.9841415536570424, enabled=True)
+	DefaultConnectionGene(key=(-3, 0), weight=3.1738420010685897, enabled=True)
+	DefaultConnectionGene(key=(-2, 0), weight=1.274034660480315, enabled=True)
+	DefaultConnectionGene(key=(-1, 0), weight=-0.7379645982252645, enabled=False)
+	DefaultConnectionGene(key=(-1, 1418), weight=0.11197269614729072, enabled=True)
+	DefaultConnectionGene(key=(0, 1418), weight=0.4772477556693334, enabled=True)
+	DefaultConnectionGene(key=(1418, 0), weight=-1.0792051671837446, enabled=False)
+	DefaultConnectionGene(key=(1418, 1514), weight=1.0580324534229177, enabled=True)
+	DefaultConnectionGene(key=(1514, 0), weight=-0.11899717134780796, enabled=True)
+
+Initial conditions:
+        x = 0.5070
+    x_dot = -0.5707
+    theta = -0.1081
+theta_dot = 0.0795
+
+Pole balanced for 120.0 of 120.0 seconds
+
+Final conditions:
+        x = 0.2096
+    x_dot = -0.1695
+    theta = 0.0021
+theta_dot = 0.2532
+
+Making movie...
+Moviepy - Building video ctrnn-movie.mp4.
+Moviepy - Writing video ctrnn-movie.mp4
+
+Moviepy - Done !
+Moviepy - video ready ctrnn-movie.mp4
